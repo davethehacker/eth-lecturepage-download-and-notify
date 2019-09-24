@@ -28,8 +28,11 @@ def download(url):
 
 def checkUrl(link, site):
     if (link[-4:] == ".pdf") or (link[-4:] == ".zip"):
-        if not (link[:4] == "http"):
+        if site[-10:] == 'index.html':
+            site = site[:-10]
             link = site + link
+            print('link: ', link)
+            download(link)
         if not (link in links):
             download(link)
 
