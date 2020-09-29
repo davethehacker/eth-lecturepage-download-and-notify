@@ -1,0 +1,11 @@
+lectures = [
+    {'url': 'https://',
+        'friendlyName': '', 'folder': '', 'channel': 'telegramchannel-id, 'download':True},
+    
+]
+
+testingMode = False
+telegramBotId = ''
+telegramDevChannel = ""
+ldapuser = ''
+ldappw = ''
