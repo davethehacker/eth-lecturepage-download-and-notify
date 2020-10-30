@@ -104,7 +104,7 @@ def download(url, lecture):
 
 
 def checkUrl(link, lecture):
-    if(link == "https://polybox.ethz.ch/index.php/s/YQC5Y0iuROmuNCD" or link == "https://polybox.ethz.ch/index.php/s/l2cCjDZZpwRlFRN"):
+    if(link == "https://polybox.ethz.ch/index.php/s/YQC5Y0iuROmuNCD" or link == "https://polybox.ethz.ch/index.php/s/l2cCjDZZpwRlFRN" or link == "https://polybox.ethz.ch/index.php/s/CB1aMka242WNogV"):
         #print("this is a special case")
         link = ""
         return
